@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Open+Sans&display=swap');
+
+body{font-family: 'Gentium Book Plus', serif;
+font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+width: 1419px;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 38px;
+    z-index: 1000;
+}
+
+.HeaderL{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.HeaderL div{margin: 1rem;}
+
+.liner{
+    font-size: 20px ;
+}
+
+
+.burger-line{
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0.45rem;
+
+}
+
+.right1 label{
+color: #fff;
+background-color: black;
+border: 2px solid white;
+border-radius: 9px;
+padding: 2px 10px;
+}
+.right1 label:hover{
+    background-color: rgb(85, 85, 85);
+}
+
+.menulist ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-top: -14px;
+}
+
+.menulist ul li{margin: 0.5rem;}
+
+.menulist ul li:hover{
+color: rgb(150, 150, 150);}
+
+.cnn{
+    width: 50px;
+    height: 35px;
+}
+
+.HeaderR{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6px;
+    justify-content: left;
+    
+}
+.maindiv{
+    display: block;
+}
+
+.right:hover{
+    color: rgb(150, 150, 150);
+}
+.HeaderR div{margin: 1rem;}
+
+.Trends{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+.headTitle:hover{
+    color: rgb(128, 128, 128);
+}
+
+
+.headlines{
+    display: flex;
+}
+
+.maindiv{
+    display: flex;
+
+    align-content: center;
+
+} 
+
+.subdiv1{
+    width: 50%;
+    justify-items: left;
+    padding: 30px;
+    display: block;
+}
+
+.images1{
+    width: 650px;
+    height:  360px;
+}
+
+.bidenhead{
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bidenhead:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.tlhead{
+    padding-left: 5px;
+    align-items: center;
+    text-align: left;
+}
+
+.tlhead:hover{
+    text-decoration: underline;
+}
+
+.lalala{
+    margin-left: 25px;
+
+}
+.L1 {
+
+    list-style-type: circle;
+    margin-top: 15px;
+}
+
+.L1:hover{
+    text-decoration: underline;
+} 
+
+.subdiv2{
+    width: 50%;
+    justify-items: right;
+    display: flex;
+}
+.leftdiv{
+    
+    width: 50%;
+    padding: 30px;
+    display: block;
+    justify-items: left;
+    
+}
+
+.warimg{
+    margin-top: 8px;
+    width: 350px;
+    height:  180px;
+}
+
+.news1{
+    margin-top: 35px;
+}
+
+.warhead{
+  justify-content: left;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.warhead:hover{
+    text-decoration: underline;
+}
+
+.rightdiv{
+    width: 50%;
+    padding: 30px;
+    display: block;
+    justify-items: right;
+}
+
+
+.check{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.mcilfcimg{
+    margin-top: 12px;
+    width: 300px;
+    height:  180px;
+}
+
+.s{
+
+    padding: 8px;
+    border-top: 2px solid rgb(200, 200, 200);
+}
+
+.s:hover{
+    text-decoration: underline;
+}
+
+.midnews{
+    display: flex;
+}
+
+.midnews1{
+    width: 25%;   
+    margin-left: 32px;
+   
+}
+.n{
+    margin-bottom: 15px;
+
+}
+.n:hover{
+    text-decoration: underline;
+}
+.oneimg{
+    width: 355px;
+    height:  180px;
+}
+.x{
+    display: flex;
+    border-top: 2px solid rgb(200, 200, 200);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.sidenp{
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: -5px;
+}
+.sideimg{
+    
+    width: 150px;
+    height:  70px;
+}
+
+.sidenp:hover{
+    text-decoration: underline;
+}
+
+.midnews2{
+    margin-left: 20px;
+    width: 45%;
+
+}
+
+.twoimg{
+    width: 600px;
+    height:  320px;
+}
+
+.twosideimg{
+    width: 130px;
+    height:  70px;
+    
+}
+.twohead{
+    margin-top: 15px;
+    font-size: 21.5px;
+    margin-bottom: 15px;
+}
+.twohead:hover{
+    text-decoration: underline;
+}
+.twoside{
+    display: flex;
+    border-top: 2px solid rgb(200, 200, 200);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.word{
+    margin-left: 10px;
+}
+.word:hover{
+    text-decoration: underline;
+}   
+.threehead{
+    margin-bottom: 10px;
+}
+
+.threehead:hover{
+    text-decoration: underline;
+}
+.threeimg{
+    width: 355px;
+    height:  180px;
+}
+
+.midnews3{
+    margin-left: 20px;
+    margin-right: 32px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.importblock{
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.searchb{
+   width: 95%;
+   padding: 14px;
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+.importhead{
+    margin-bottom: 10px;
+}
+
+.importhead:hover{
+    text-decoration: underline;
+}
+
+.o{
+    font-size: 14px;
+}
+
+.o:hover{
+    text-decoration: underline;
+}
+
+.importblock2{
+    display: flex;
+    margin-left: 35px;
+    margin-right: 240px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.linkers{
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 2px solid rgb(110, 110, 110);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(110, 110, 110);
+
+}
+    
+
+.leftlink{
+    display: flex;
+}
+.usa{
+    margin-top: 4.5px;
+    margin-left: 15px;
+}
+.rightlink{
+    margin-top: 8px;
+    display: flex;
+    margin-right: 30px;
+
+}
+.r{
+    margin-right: 15px;
+}
+.cnn2{
+    width: 50px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.flist{
+    margin-top: 20px;
+    font-size: smaller;
+    display: flex;
+}
+.t{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.t:hover{
+    text-decoration: underline;
+}   
+
+.random{
+    font-size: small;
+    margin-left: 30px;
+}
+
+.set{
+    margin-right: 15px;
+    width: 25px;
+    height: 21px
+}
+
+.setblack{
+    margin-right: 15px;
+    width: 40px;
+    height: 35px;
+    margin-top: -7px;
+}
+
+img:hover{
+    opacity: 0.8;
+}
